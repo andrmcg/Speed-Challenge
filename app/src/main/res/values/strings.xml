@@ -14,4 +14,5 @@
     <string name="log_in">LOG IN</string>
     <string name="sign_up1">Don\'t have an account?</string>
     <string name="sign_up2">Sign Up</string>
+    <string name="favorite_collections">FAVORITE COLLECTIONS</string>
 </resources>
