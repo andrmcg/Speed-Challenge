@@ -114,8 +114,7 @@ fun ScrollingRowComposable(imageResources: List<Asset>, state: ScrollState) {
     Row(Modifier.horizontalScroll(state)) {
         imageResources.forEach {
             Column(
-                modifier = Modifier
-                    .width(88.dp)
+                modifier = Modifier.wrapContentWidth()
                     .padding(end = 8.dp)
             ) {
                 Surface(
@@ -133,7 +132,6 @@ fun ScrollingRowComposable(imageResources: List<Asset>, state: ScrollState) {
                     modifier = Modifier
                         .paddingFromBaseline(24.dp)
                         .fillMaxWidth(),
-                    style = MaterialTheme.typography.h3,
                     textAlign = TextAlign.Center
                 )
             }
